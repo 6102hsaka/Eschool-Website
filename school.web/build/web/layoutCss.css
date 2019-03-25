@@ -1,0 +1,31 @@
+body { font-family: cursive;background: linear-gradient( to right ,#99ff99 ,#ffff99,#ffcc99 ) ;}
+h1 { font-size: 65px;position:absolute; left:535px; top: -15px;color: ; }
+h6 { position: absolute; top:78px;left: 666px;font-size: 15px;}
+hx { position: absolute; left: 20px; top: 100px;color: tomato;}
+hxy { position: fixed; left: 600px; top: 175px;color: tomato}
+hr { border-bottom: tomato 3px solid;position: relative; top:140px;}
+a { text-decoration: none;}
+a:hover {font-weight: bolder;color:tomato;}
+hm { position: absolute; top:120px;right: 20px;}
+#head {background-color: springgreen;position:absolute;top:0px;left:0px;right:0px;height: 148px;}
+#tb { position: absolute;top:152px;left:0px;font-size: 22px;width: 760px;}
+#ntc { position: absolute;top: 480px;right: 15px;width: 550px;}
+.admission,.attendance,.result,.routine,.assignment,.holiday,.exam,.complain
+{
+    display: inline-block;font-size:18px;font-family: cursive;
+    cursor:pointer;text-align: center;text-decoration: none; outline: none;
+    border:none;border-radius: 15px;box-shadow: 0 9px #999;width: 140px;height: 38px;
+}
+.admission:active,.attendance:active,.result:active,.routine:active,.assignment:active,.holiday:active,.exam:active,
+.complain:active 
+{
+    box-shadow: 0 5px #666;   transform: translateY(4px);
+}
+.admission{ background-color: #00ff00;position: absolute;left:0px;top:0px;}
+.routine{ background-color: #00ffcc;position: absolute;left:200px;top:0px;}
+.attendance{ background-color: #3333ff; position: absolute;left:400px;top:0px;}
+.assignment{ background-color: #00ff00;position: absolute;left:0px;top:60px;}
+.exam { background-color: #00ffcc;position: absolute;left:200px;top:60px;}
+.result{ background-color: #3333ff;position: absolute;left:400px;top:60px;}
+.holiday{ background-color: #00ff00;position: absolute;left:0px;top:120px;}
+.complain { background-color: #00ffcc;position: absolute;left:200px;top: 120px;}
